@@ -5,3 +5,4 @@ Introducing friendsconnect, where friendship knows no bounds. Our cutting-edge p
 
 Presenting our groundbreaking friendship app project designed to revolutionize social interaction. Harnessing advanced algorithms, intuitive design, and a passion for fostering meaningful connections, our platform empowers users to effortlessly forge new friendships, enriching lives one connection at a time.
 
+
