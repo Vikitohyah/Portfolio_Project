@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>friendsConnect</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #6a5acd; /* Purple background */
+      color: #fff; /* White text color */
+    }
+    .container {
+      max-width: 300px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #ffa500; /* Light orange container background */
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    }
+    h1 {
+      text-align: center;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    input[type="text"], input[type="password"], input[type="submit"] {
+      margin-bottom: 10px;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+    }
+    input[type="submit"] {
+      background-color: #6a5acd; /* Purple button background */
+      color: #fff; /* White text color */
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: #483d8b; /* Darker purple on hover */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to friendsConnect</h1>
+    <form>
+      <input type="text" placeholder="Enter your username" required>
+      <input type="password" placeholder="Enter your password" required>
+      <input type="submit" value="Login">
+    </form>
+    <p>Don't have an account? <a href="#">Create one</a></p>
+  </div>
+</body>
+</html>
+
